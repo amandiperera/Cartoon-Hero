@@ -1,3 +1,8 @@
+body{
+	background-color: purple;
+
+}
+
 h1{
 	color: hotpink;
 	font-size: 90px;
@@ -8,9 +13,11 @@ h2{
 	font-size: 22px;
 	color: cadetblue;
 	}
+	
 .small{
 	font-size: 12px;
 	}
+
 span{
 	font-style: italic;
 	}
