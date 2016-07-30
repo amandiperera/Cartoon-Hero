@@ -1,4 +1,18 @@
+html, body{
+	font-family: Arial, sans-seriff;
+	margin: 0;
+}
+
+
 header{
+	background-color: #3399ff;
+	padding: 50px;
+	text-align: center;
+}
+
+h1{
+	font-size: 70px;
+
 	background-color: #00004C;
 	padding: 50px;
 }
@@ -9,13 +23,56 @@ h1{
 }
 
 header img{
-	border-radius: 150px
+	border-radius: 47px;
+    width: 233px;
+    border: 24px solid #33ff99;
+ }
+
+.content{
+	max-width: 268px;
+	margin: 0 auto;
+	padding: 0 20px;
+	padding-top: 0 20px;
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 18px;
+	color: gold;
+	font-style: italic;
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: hotpink;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #66b3ff;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+border-radius: 150px
 }
 
 
-
-
-/* <header>
-			<img src="img/profile.jpg">
-			<h1> Spongebob Squarepants </h1>
-		</header>
